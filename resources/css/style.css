@@ -1,0 +1,154 @@
+html{
+	font-family: Helvetica;
+	font-size: 22px;
+	color: seashell;
+	background-color: black;
+	opacity: 0.9
+
+}
+body {
+	margin: 0px 0px 0px 0px;
+
+}
+header {
+	z-index: 10;
+	align-items: center;
+	display: flex;
+	border-bottom: 1px solid seashell;
+	position: fixed;
+	height: 69px;
+	width: 100%;
+	background-color: black;
+}
+
+header img {
+
+	height: 50px;
+	margin: auto auto auto 10px;
+
+}
+header nav {
+	text-align: right;
+}
+header span {
+	padding: 20px 10px;
+	
+
+}
+
+header span a {
+	color: seashell;
+	text-decoration: underline;
+}
+.content {
+	justify-content: center;
+	padding-top: 69px;
+
+}
+
+#mission{
+	display: flex;
+	align-items: center;
+	background-repeat: no-repeat;
+	height: 700px;
+	background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+	flex-wrap: wrap;
+	background-position: center;
+	justify-content: center;
+}
+
+#mission .title {
+	background-color: black;
+
+	text-align: center;
+	width: 1200px;
+
+}
+#mission .title h4 {
+	white-space: nowrap
+}
+
+
+#featuretea {
+
+	width: 1000px;
+	padding: 70px 100px;
+}
+#featuretea .title h2{
+	margin-top: 0px;
+}
+
+#locations {
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 500px;
+	display: block;
+	padding-top: 70px;
+	background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+}
+
+#locations h2 {
+	display: block;
+	text-align: center;
+}
+
+#text-list {
+	display: flex;
+	flex-direction: row;	
+	justify-content: center;
+}
+
+.title {
+	display: block;
+	align-items: center;
+
+}
+
+.title h2, .title h4{
+	display: block;
+	text-align : center;
+}
+
+#img-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.image {
+	padding: 5px;
+}
+.image img {
+
+	width: 300px;
+	height: 200px;
+	padding: 5px;
+}
+
+.image h4 {
+	padding: 5px;
+	margin: 0px auto;
+}
+
+.text {
+	width: 300px;
+	margin: auto 20px;
+	background-color: black;
+	opacity: 1;
+	text-align: center;
+	display: block;
+}
+.footer {
+	margin: 30.5px 20px;
+
+}
+
+#contact {
+	height: 200px;
+	display: block;
+	text-align: center;
+}
+#copy-right {
+	text-align: left;
+	padding-left: 20px;
+}
